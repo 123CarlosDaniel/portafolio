@@ -1,0 +1,46 @@
+/* nav */
+.nav_title {
+  color: #81c784;
+}
+
+/* nav */
+
+/* Home */
+.home_highlight {
+  color: #81c784;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: inline-block;
+}
+
+.img_webdev {
+  width: 100%;
+  height: auto;
+  transition: 0.3s;
+}
+
+.hover {
+  opacity: 0.6;
+}
+
+
+/* Home */
+
+.btn-cont {
+  position:absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: 0.2s transform;
+  transition-delay: 0.2s;
+}
+
+.active {
+  transform: translateX(-50%) translateY(-5px) ;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
